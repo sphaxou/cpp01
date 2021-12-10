@@ -6,7 +6,7 @@
 /*   By: vgallois <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/10 02:48:55 by vgallois          #+#    #+#             */
-/*   Updated: 2021/12/10 03:16:24 by vgallois         ###   ########.fr       */
+/*   Updated: 2021/12/10 17:29:51 by vgallois         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,13 +37,13 @@ void Karen::complain(const std::string &level)
 {
 	t_funtab tab[4];
 	tab[0].f = &Karen::debug;
-	tab[0].level = "debug";
+	tab[0].level = "DEBUG";
 	tab[1].f = &Karen::info;
-	tab[1].level = "info";
+	tab[1].level = "INFO";
 	tab[2].f = &Karen::warning;
-	tab[2].level = "warning";
+	tab[2].level = "WARNING";
 	tab[3].f = &Karen::error;
-	tab[3].level = "error";
+	tab[3].level = "ERROR";
 
 	int	i;
 

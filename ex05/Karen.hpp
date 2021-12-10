@@ -6,7 +6,7 @@
 /*   By: vgallois <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/10 02:45:59 by vgallois          #+#    #+#             */
-/*   Updated: 2021/12/10 03:11:59 by vgallois         ###   ########.fr       */
+/*   Updated: 2021/12/10 17:26:53 by vgallois         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ class Karen
 		void error( void );
 };
 
-using fun=void (Karen::*)(void);
+typedef void (Karen::*fun)(void);
 typedef	struct s_funtab
 {
 	fun	f;
